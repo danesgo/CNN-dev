@@ -103,7 +103,7 @@ def main(unused_argv):
     eval_results = mnist_classifier.evaluate(x=eval_data, y=eval_labels, metrics=metrics)
     print(eval_results)
 
-    
+
 
 #Our application logic will be added here
 if __name__ == "__main__": #nota that necessarily
